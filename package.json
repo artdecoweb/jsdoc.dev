@@ -18,7 +18,9 @@
     "build": "yarn-s d b doc",
     "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f",
     "e": "node example",
-    "example/": "yarn e example/example.js"
+    "example/": "yarn e example/example.js",
+    "splendid": "splendid",
+    "web": "splendid -s"
   },
   "files": [
     "build",
@@ -42,6 +44,7 @@
     "documentary": "1.21.1",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.6.6"
+    "zoroaster": "3.6.6",
+    "preact": "8.4.2"
   }
 }
