@@ -10,12 +10,11 @@ const config = {
   replacements: [
     {
       re: /{{ company }}/g,
-      replacement: '[Splendid](https://splendid.sh)',
+      replacement: '[JSDOC.dev](https://jsdoc.dev)',
     },
   ],
   output: BUILD_DIR,
-  // to generate sitemaps:
-  /* url: https://website.github.io/splendid */
+  url: 'https://jsdoc.dev',
 }
 
 export default config
